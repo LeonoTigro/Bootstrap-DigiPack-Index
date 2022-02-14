@@ -1,0 +1,47 @@
+*{
+    transition: 0.5s;
+}
+
+.login {
+    background-image: url(../img/bg.jpg) ;
+    background-size: cover;
+}
+
+.slogan{
+    background-color: rgb(255, 255, 255,0.2);
+}
+
+@media (max-width:991px) {
+    .login-form{
+        background-color: rgba(255, 255, 255, 0.4) !important;
+    }
+}
+
+.login-form .links{
+    bottom: 0px;
+    left: calc(25% - calc(131.41px / 2));
+}
+
+@media (max-width:991px) {
+    .login-form .links{
+        position: unset !important;
+    }
+}
+
+.links{
+    bottom: 0px;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.login-form input{
+    background-color: black;
+    height: 50px;
+}
+
+.login-form button{
+    height: 50px;
+}
